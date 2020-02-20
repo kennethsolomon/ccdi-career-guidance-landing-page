@@ -18,6 +18,8 @@
 
 <?php
 include_once('./assets/includes/connection.php');
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -171,51 +173,12 @@ include_once('./assets/includes/connection.php');
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_1.jpg" />
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Tina</h3>
-                                                    <p class="small-text">CEO / Co-Founder</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_4.jpg" />
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Andrew</h3>
-                                                    <p class="small-text">Product Designer</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_3.jpg" />
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Michelle</h3>
-                                                    <p class="small-text">Marketing Hacker</p>
-                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                    <?php include_once('./assets/includes/content.php'); ?>
 
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
