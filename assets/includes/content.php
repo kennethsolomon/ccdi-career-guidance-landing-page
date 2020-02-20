@@ -21,7 +21,7 @@ if (mysqli_num_rows($result) > 0) {
                             <img alt="..." class="img-circle" src="assets/img/faces/face_1.jpg" />
                         </div>
                         <div class="description">
-                            <h3 class="title">' . $title . '</h3>
+                        <a href=""><h3 class="title">' . $title . '</h3></a>
                             <p class="small-text">by ' . $author . '</p>
                             <p class="description">' . $content . '</p>
                         </div>
