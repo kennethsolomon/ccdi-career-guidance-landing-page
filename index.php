@@ -50,23 +50,23 @@ include_once('./assets/includes/connection.php');
 
 
     <div class="section section-header">
-        <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('assets/img/header-1.jpeg')">
+        <div class="parallax filter filter-color-blue">
+            <div class="image" style="background-image: url('./assets/img/banner.jpg')">
             </div>
             <div class="container">
                 <div class="content">
                     <div class="title-area">
-                        <p>Free Demo</p>
-                        <h1 class="title-modern">Gaia</h1>
-                        <h3>Probably the most stylish bootstrap template in the world!</h2>
+                        <!-- <p>Free Demo</p> -->
+                        <h1 class="title-modern">Welcome!</h1>
+                        <h2>to CCDI - Sorsogon!</h2>
                             <div class="separator line-separator">♦</div>
                     </div>
 
-                    <div class="button-get-started">
+                    <!-- <div class="button-get-started">
                         <a href="http://www.creative-tim.com/product/gaia-bootstrap-template" target="_blank" class="btn btn-white btn-fill btn-lg ">
                             Download Demo
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -118,7 +118,7 @@ include_once('./assets/includes/connection.php');
 
     <div class="section section-our-team-freebie">
         <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('assets/img/header-2.jpeg')">
+            <div class="image" style="background-image:url('./assets/img/announcement.jpg')">
             </div>
             <div class="container">
                 <div class="content">
@@ -151,8 +151,8 @@ include_once('./assets/includes/connection.php');
     <div class="section section-our-clients-freebie">
         <div class="container">
             <div class="title-area">
-                <h5 class="subtitle text-gray">Here are some</h5>
-                <h2>Clients Testimonials</h2>
+                <!-- <h5 class="subtitle text-gray">Here are some</h5> -->
+                <h2>CCDI Administrators</h2>
                 <div class="separator separator-danger">∎</div>
             </div>
 
@@ -201,7 +201,7 @@ include_once('./assets/includes/connection.php');
         </div>
     </div>
 
-
+<!-- 
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image" style="background-image: url('assets/img/office-1.jpeg')">
@@ -218,12 +218,12 @@ include_once('./assets/includes/connection.php');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
-    <footer class="footer footer-big footer-color-black" data-color="black">
+    <footer class="footer footer-small footer-color-black" data-color="black">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-2 col-sm-3">
                     <div class="info">
                         <h5 class="title">Company</h5>
@@ -320,12 +320,12 @@ include_once('./assets/includes/connection.php');
                         </nav>
                     </div>
                 </div>
-            </div>
-            <hr>
+            </div> 
+            <hr> -->
             <div class="copyright">
                 © <script>
                     document.write(new Date().getFullYear())
-                </script> Creative Tim, made with love
+                </script> CCDI, Sorsogon City
             </div>
         </div>
     </footer>
