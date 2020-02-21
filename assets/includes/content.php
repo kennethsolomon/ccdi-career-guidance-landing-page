@@ -7,7 +7,6 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
         $contentId = $row["contentId"];
-        $userId = $row["userId"];
         $author = $row["author"];
         $title = $row["title"];
         $content = $row["content"];
