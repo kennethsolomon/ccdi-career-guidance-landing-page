@@ -11,7 +11,7 @@ $contentId = $_GET["content"];
            $title = $row["title"];
            $content = $row["content"];
            $date = $row["date"];
-           $fdate = substr($date,1,10);
+           $fdate = substr($date,0,10);
            echo '
            <div class="container">
                 <div class="card card-content" style="width: 100%">
@@ -19,7 +19,7 @@ $contentId = $_GET["content"];
                         <center><h1 class="card-title ">'.$title.'</h1> </center>
                         <center><h5 class="card-subtitle mb-2 text-muted card-content-title">by '.$author.' - '.$fdate.'</h5></center>
                         <p class="card-text">
-                            '.$content.'
+                            <pre >'.$content.'</pre>
                         </p>
                         <!-- <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a> -->
