@@ -17,7 +17,7 @@ $contentId = $_GET["content"];
                 <div class="card card-content" style="width: 100%">
                     <div class="card-body">
                         <center><h1 class="card-title ">'.$title.'</h1> </center>
-                        <center><h5 class="card-subtitle mb-2 text-muted card-content-title">'.$author.' - '.$fdate.'</h5></center>
+                        <center><h5 class="card-subtitle mb-2 text-muted card-content-title">by '.$author.' - '.$fdate.'</h5></center>
                         <p class="card-text">
                             '.$content.'
                         </p>
