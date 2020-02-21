@@ -1,3 +1,6 @@
+<?php 
+include_once('./assets/includes/connection.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,16 +19,20 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="index.php">Home</a>
         </nav>
     </div>
-
+    
+    <?php include_once('./assets/includes/content_page.php'); ?>
 </body>
 
 <!--   core js files    -->
