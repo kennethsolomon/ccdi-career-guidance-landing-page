@@ -1,7 +1,7 @@
 <?php
 include_once('./assets/includes/connection.php');
 
-$sql = "SELECT * FROM content";
+$sql = "SELECT * FROM content order by contentId DESC LIMIT 3";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
