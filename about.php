@@ -48,36 +48,10 @@ include_once('./assets/includes/connection.php');
 
     <?php include_once('./assets/includes/navfixed.php'); ?>
 
-
-    <div class="section section-header">
-        <div class="parallax filter filter-color-blue">
-            <div class="image" style="background-image: url('./assets/img/banner.jpg')">
-            </div>
-            <div class="container">
-                <div class="content">
-                    <div class="title-area">
-                        <!-- <p>Free Demo</p> -->
-                        <!-- <h1 class="title-modern">Welcome!</h1> -->
-                        <h2>Welcome!</h2>
-                        <h2> to CCDI - Sorsogon!</h2>
-                        <div class="separator line-separator">♦</div>
-                    </div>
-
-                    <div class="button-get-started">
-                        <a href="" data-toggle="modal" data-target=".bd-example-modal-lg" target="_blank" class="btn btn-danger btn-fill btn-lg ">
-                            Enroll Now
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
     <!-- Large modal -->
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-md">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="exampleModalLongTitle">Requirements for Enrolment:</h3>
@@ -103,125 +77,60 @@ include_once('./assets/includes/connection.php');
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                    <h2>Our Services</h2>
+                    <h2 class="aboutSection">BACKGROUND</h2>
                     <div class="separator separator-danger">✻</div>
-                    <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-graph2"></i>
-                        </div>
-                        <h3>Sales</h3>
-                        <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-note2"></i>
-                        </div>
-                        <h3>Content</h3>
-                        <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-music"></i>
-                        </div>
-                        <h3>Music</h3>
-                        <p class="description">We like to present the world with our work, so we make sure we spread the word regarding our clothes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="section section-our-team-freebie">
-        <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('./assets/img/announcement.jpg')">
-            </div>
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="title-area">
-                            <h2>Announcement</h2>
-                            <div class="separator separator-danger">✻</div>
-                            <p class="description">We post all the announcement of the school in this area.</p>
-                        </div>
-                    </div>
-
-                    <div class="team">
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <div class="row">
-
-                                    <?php include_once('./assets/includes/content.php'); ?>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="section section-our-clients-freebie">
-        <div class="container">
-            <div class="title-area">
-                <!-- <h5 class="subtitle text-gray">Here are some</h5> -->
-                <h2>CCDI Administrators</h2>
-                <div class="separator separator-danger">∎</div>
-            </div>
-
-            <ul class="nav nav-text" role="tablist">
-                <li class="active">
-                    <a href="#testimonial1" role="tab" data-toggle="tab">
-                        <div class="image-clients">
-                            <img alt="..." class="img-circle" src="assets/img/faces/face_5.jpg" />
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial2" role="tab" data-toggle="tab">
-                        <div class="image-clients">
-                            <img alt="..." class="img-circle" src="assets/img/faces/face_6.jpg" />
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial3" role="tab" data-toggle="tab">
-                        <div class="image-clients">
-                            <img alt="..." class="img-circle" src="assets/img/faces/face_2.jpg" />
-                        </div>
-                    </a>
-                </li>
-            </ul>
-
-
-            <div class="tab-content">
-                <div class="tab-pane active" id="testimonial1">
                     <p class="description">
-                        And I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. Now there is only one important color... Green I even had the pink polo I thought I was Kanye I promise I will never let the people down. I want a better life for all!
+                        More then <strong>two decades</strong> of quality education this is CCDI's legacy to the Bicolanos!
+                    </p>
+                    <p class="description">
+                        Inspired by the founder, Hon. Felix R. Alfelor, Jr.'s mission of providing affordable quality computer
+                        education to he underprivileged, CCDI continues to soar and satisfy the needs of the Bicolano youth amidst
+                        rapid technological advancement and globalization.
+                    </p>
+                    <p class="description">
+                        CCDI is a non-profit, private education institution that offers I.T. related programs at affordable rate.
+                        It is dedicated and committed to providing quality education with heart for community and national development.
+                    </p>
+                    <p class="description">
+                        CCDI is a specialized computer college recognized by the Comission on Higher Education (CHED) and accredited by the Technical
+                        Education and Skills Development Authority (TESDA) and the Department of Education. It offers not only I.T. courses but
+                        also short-term training programs for proffesionals and skilled workers.
                     </p>
                 </div>
-                <div class="tab-pane" id="testimonial2">
-                    <p class="description">Green I even had the pink polo I thought I was Kanye I promise I will never let the people down. I want a better life for all! And I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. Now there is only one important color...
+                <div class="title-area">
+                    <h2>PHILOSOPHY</h2>
+                    <div class="separator separator-danger">✻</div>
+                    <p class="description">
+                        Excellent education is best attained through <em>QUALITY</em> and <em>AFFORDABILITY</em>.
                     </p>
                 </div>
-                <div class="tab-pane" id="testimonial3">
-                    <p class="description"> I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. The 'Gaia' team did a great work while we were collaborating. They provided a vision that was in deep connection with our needs and helped us achieve our goals.
+                <div class="title-area">
+                    <h2>VISION</h2>
+                    <div class="separator separator-danger">✻</div>
+                    <p class="description">
+                        CCDI envisions of providing a service of leadership through excellent instructions that will produce empowered
+                        and world-class I.T. graduates.
                     </p>
                 </div>
-
+                <div class="title-area">
+                    <h2>MISSION</h2>
+                    <div class="separator separator-danger">✻</div>
+                    <p class="description">
+                        We empower the lives we touch!
+                    </p>
+                </div>
+                <div class="title-area">
+                    <h2>CORE VALUES</h2>
+                    <div class="separator separator-danger">✻</div>
+                    <ul>
+                        <li>EXCELLENCE</li>
+                        <li>INTEGRITY</li>
+                        <li>LEADERSHIP</li>
+                        <li>SERVICE</li>
+                    </ul>
+                </div>
             </div>
+
 
         </div>
     </div>
